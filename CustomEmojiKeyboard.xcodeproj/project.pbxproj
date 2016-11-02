@@ -15,6 +15,27 @@
 		C48AA61D1DC9DA8100BC4C37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48AA61B1DC9DA8100BC4C37 /* LaunchScreen.storyboard */; };
 		C48AA6281DC9DA8100BC4C37 /* CustomEmojiKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C48AA6271DC9DA8100BC4C37 /* CustomEmojiKeyboardTests.m */; };
 		C48AA6331DC9DA8100BC4C37 /* CustomEmojiKeyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C48AA6321DC9DA8100BC4C37 /* CustomEmojiKeyboardUITests.m */; };
+		C48AA6631DC9DB8D00BC4C37 /* FPFEmojiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C48AA6431DC9DB8D00BC4C37 /* FPFEmojiManager.m */; };
+		C48AA6641DC9DB8D00BC4C37 /* FPFEmoticonDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = C48AA6451DC9DB8D00BC4C37 /* FPFEmoticonDownloader.m */; };
+		C48AA6651DC9DB8D00BC4C37 /* FPFEmoticon.m in Sources */ = {isa = PBXBuildFile; fileRef = C48AA6481DC9DB8D00BC4C37 /* FPFEmoticon.m */; };
+		C48AA6661DC9DB8D00BC4C37 /* FPFEmoticonGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = C48AA64A1DC9DB8D00BC4C37 /* FPFEmoticonGroup.m */; };
+		C48AA6671DC9DB8D00BC4C37 /* defaultEmoticon.cfg in Resources */ = {isa = PBXBuildFile; fileRef = C48AA64C1DC9DB8D00BC4C37 /* defaultEmoticon.cfg */; };
+		C48AA6681DC9DB8D00BC4C37 /* T10V_eByb_1RCvBVdK.png in Resources */ = {isa = PBXBuildFile; fileRef = C48AA64D1DC9DB8D00BC4C37 /* T10V_eByb_1RCvBVdK.png */; };
+		C48AA6691DC9DB8D00BC4C37 /* T16LWKBvb_1RCvBVdK.png in Resources */ = {isa = PBXBuildFile; fileRef = C48AA64E1DC9DB8D00BC4C37 /* T16LWKBvb_1RCvBVdK.png */; };
+		C48AA66A1DC9DB8D00BC4C37 /* T1B_VeBXV_1RCvBVdK.png in Resources */ = {isa = PBXBuildFile; fileRef = C48AA64F1DC9DB8D00BC4C37 /* T1B_VeBXV_1RCvBVdK.png */; };
+		C48AA66B1DC9DB8D00BC4C37 /* T1ECJ7ByA_1RCvBVdK.png in Resources */ = {isa = PBXBuildFile; fileRef = C48AA6501DC9DB8D00BC4C37 /* T1ECJ7ByA_1RCvBVdK.png */; };
+		C48AA66C1DC9DB8D00BC4C37 /* T1fkY7B7h_1RCvBVdK.png in Resources */ = {isa = PBXBuildFile; fileRef = C48AA6511DC9DB8D00BC4C37 /* T1fkY7B7h_1RCvBVdK.png */; };
+		C48AA66D1DC9DB8D00BC4C37 /* T1gKdPByA_1RCvBVdK.png in Resources */ = {isa = PBXBuildFile; fileRef = C48AA6521DC9DB8D00BC4C37 /* T1gKdPByA_1RCvBVdK.png */; };
+		C48AA66E1DC9DB8D00BC4C37 /* T1OJA7ByV_1RCvBVdK.png in Resources */ = {isa = PBXBuildFile; fileRef = C48AA6531DC9DB8D00BC4C37 /* T1OJA7ByV_1RCvBVdK.png */; };
+		C48AA66F1DC9DB8D00BC4C37 /* T1UoY7BXK_1RCvBVdK.png in Resources */ = {isa = PBXBuildFile; fileRef = C48AA6541DC9DB8D00BC4C37 /* T1UoY7BXK_1RCvBVdK.png */; };
+		C48AA6701DC9DB8D00BC4C37 /* T1vRELByL_1RCvBVdK.png in Resources */ = {isa = PBXBuildFile; fileRef = C48AA6551DC9DB8D00BC4C37 /* T1vRELByL_1RCvBVdK.png */; };
+		C48AA6711DC9DB8D00BC4C37 /* T1WqbeByW_1RCvBVdK.png in Resources */ = {isa = PBXBuildFile; fileRef = C48AA6561DC9DB8D00BC4C37 /* T1WqbeByW_1RCvBVdK.png */; };
+		C48AA6721DC9DB8D00BC4C37 /* 头像.png in Resources */ = {isa = PBXBuildFile; fileRef = C48AA6571DC9DB8D00BC4C37 /* 头像.png */; };
+		C48AA6731DC9DB8D00BC4C37 /* FPFCustomEmojiItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C48AA65A1DC9DB8D00BC4C37 /* FPFCustomEmojiItem.m */; };
+		C48AA6741DC9DB8D00BC4C37 /* FPFEditorEmojiView.m in Sources */ = {isa = PBXBuildFile; fileRef = C48AA65C1DC9DB8D00BC4C37 /* FPFEditorEmojiView.m */; };
+		C48AA6751DC9DB8D00BC4C37 /* FPFEmojiBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C48AA65E1DC9DB8D00BC4C37 /* FPFEmojiBarItem.m */; };
+		C48AA6761DC9DB8D00BC4C37 /* FPFEmojiItemLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C48AA6601DC9DB8D00BC4C37 /* FPFEmojiItemLayout.m */; };
+		C48AA6771DC9DB8D00BC4C37 /* FPFSystemEmojiItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C48AA6621DC9DB8D00BC4C37 /* FPFSystemEmojiItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +72,36 @@
 		C48AA62E1DC9DA8100BC4C37 /* CustomEmojiKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomEmojiKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48AA6321DC9DA8100BC4C37 /* CustomEmojiKeyboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomEmojiKeyboardUITests.m; sourceTree = "<group>"; };
 		C48AA6341DC9DA8100BC4C37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C48AA6421DC9DB8D00BC4C37 /* FPFEmojiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPFEmojiManager.h; sourceTree = "<group>"; };
+		C48AA6431DC9DB8D00BC4C37 /* FPFEmojiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPFEmojiManager.m; sourceTree = "<group>"; };
+		C48AA6441DC9DB8D00BC4C37 /* FPFEmoticonDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPFEmoticonDownloader.h; sourceTree = "<group>"; };
+		C48AA6451DC9DB8D00BC4C37 /* FPFEmoticonDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPFEmoticonDownloader.m; sourceTree = "<group>"; };
+		C48AA6471DC9DB8D00BC4C37 /* FPFEmoticon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPFEmoticon.h; sourceTree = "<group>"; };
+		C48AA6481DC9DB8D00BC4C37 /* FPFEmoticon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPFEmoticon.m; sourceTree = "<group>"; };
+		C48AA6491DC9DB8D00BC4C37 /* FPFEmoticonGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPFEmoticonGroup.h; sourceTree = "<group>"; };
+		C48AA64A1DC9DB8D00BC4C37 /* FPFEmoticonGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPFEmoticonGroup.m; sourceTree = "<group>"; };
+		C48AA64C1DC9DB8D00BC4C37 /* defaultEmoticon.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = defaultEmoticon.cfg; sourceTree = "<group>"; };
+		C48AA64D1DC9DB8D00BC4C37 /* T10V_eByb_1RCvBVdK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T10V_eByb_1RCvBVdK.png; sourceTree = "<group>"; };
+		C48AA64E1DC9DB8D00BC4C37 /* T16LWKBvb_1RCvBVdK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T16LWKBvb_1RCvBVdK.png; sourceTree = "<group>"; };
+		C48AA64F1DC9DB8D00BC4C37 /* T1B_VeBXV_1RCvBVdK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T1B_VeBXV_1RCvBVdK.png; sourceTree = "<group>"; };
+		C48AA6501DC9DB8D00BC4C37 /* T1ECJ7ByA_1RCvBVdK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T1ECJ7ByA_1RCvBVdK.png; sourceTree = "<group>"; };
+		C48AA6511DC9DB8D00BC4C37 /* T1fkY7B7h_1RCvBVdK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T1fkY7B7h_1RCvBVdK.png; sourceTree = "<group>"; };
+		C48AA6521DC9DB8D00BC4C37 /* T1gKdPByA_1RCvBVdK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T1gKdPByA_1RCvBVdK.png; sourceTree = "<group>"; };
+		C48AA6531DC9DB8D00BC4C37 /* T1OJA7ByV_1RCvBVdK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T1OJA7ByV_1RCvBVdK.png; sourceTree = "<group>"; };
+		C48AA6541DC9DB8D00BC4C37 /* T1UoY7BXK_1RCvBVdK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T1UoY7BXK_1RCvBVdK.png; sourceTree = "<group>"; };
+		C48AA6551DC9DB8D00BC4C37 /* T1vRELByL_1RCvBVdK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T1vRELByL_1RCvBVdK.png; sourceTree = "<group>"; };
+		C48AA6561DC9DB8D00BC4C37 /* T1WqbeByW_1RCvBVdK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T1WqbeByW_1RCvBVdK.png; sourceTree = "<group>"; };
+		C48AA6571DC9DB8D00BC4C37 /* 头像.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "头像.png"; sourceTree = "<group>"; };
+		C48AA6591DC9DB8D00BC4C37 /* FPFCustomEmojiItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPFCustomEmojiItem.h; sourceTree = "<group>"; };
+		C48AA65A1DC9DB8D00BC4C37 /* FPFCustomEmojiItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPFCustomEmojiItem.m; sourceTree = "<group>"; };
+		C48AA65B1DC9DB8D00BC4C37 /* FPFEditorEmojiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPFEditorEmojiView.h; sourceTree = "<group>"; };
+		C48AA65C1DC9DB8D00BC4C37 /* FPFEditorEmojiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPFEditorEmojiView.m; sourceTree = "<group>"; };
+		C48AA65D1DC9DB8D00BC4C37 /* FPFEmojiBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPFEmojiBarItem.h; sourceTree = "<group>"; };
+		C48AA65E1DC9DB8D00BC4C37 /* FPFEmojiBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPFEmojiBarItem.m; sourceTree = "<group>"; };
+		C48AA65F1DC9DB8D00BC4C37 /* FPFEmojiItemLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPFEmojiItemLayout.h; sourceTree = "<group>"; };
+		C48AA6601DC9DB8D00BC4C37 /* FPFEmojiItemLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPFEmojiItemLayout.m; sourceTree = "<group>"; };
+		C48AA6611DC9DB8D00BC4C37 /* FPFSystemEmojiItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPFSystemEmojiItem.h; sourceTree = "<group>"; };
+		C48AA6621DC9DB8D00BC4C37 /* FPFSystemEmojiItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPFSystemEmojiItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +132,7 @@
 		C48AA6011DC9DA8100BC4C37 = {
 			isa = PBXGroup;
 			children = (
+				C48AA6401DC9DB8D00BC4C37 /* Emoji */,
 				C48AA60C1DC9DA8100BC4C37 /* CustomEmojiKeyboard */,
 				C48AA6261DC9DA8100BC4C37 /* CustomEmojiKeyboardTests */,
 				C48AA6311DC9DA8100BC4C37 /* CustomEmojiKeyboardUITests */,
@@ -138,6 +190,75 @@
 				C48AA6341DC9DA8100BC4C37 /* Info.plist */,
 			);
 			path = CustomEmojiKeyboardUITests;
+			sourceTree = "<group>";
+		};
+		C48AA6401DC9DB8D00BC4C37 /* Emoji */ = {
+			isa = PBXGroup;
+			children = (
+				C48AA6411DC9DB8D00BC4C37 /* business */,
+				C48AA6461DC9DB8D00BC4C37 /* Model */,
+				C48AA64B1DC9DB8D00BC4C37 /* Source */,
+				C48AA6581DC9DB8D00BC4C37 /* view */,
+			);
+			path = Emoji;
+			sourceTree = "<group>";
+		};
+		C48AA6411DC9DB8D00BC4C37 /* business */ = {
+			isa = PBXGroup;
+			children = (
+				C48AA6421DC9DB8D00BC4C37 /* FPFEmojiManager.h */,
+				C48AA6431DC9DB8D00BC4C37 /* FPFEmojiManager.m */,
+				C48AA6441DC9DB8D00BC4C37 /* FPFEmoticonDownloader.h */,
+				C48AA6451DC9DB8D00BC4C37 /* FPFEmoticonDownloader.m */,
+			);
+			path = business;
+			sourceTree = "<group>";
+		};
+		C48AA6461DC9DB8D00BC4C37 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C48AA6471DC9DB8D00BC4C37 /* FPFEmoticon.h */,
+				C48AA6481DC9DB8D00BC4C37 /* FPFEmoticon.m */,
+				C48AA6491DC9DB8D00BC4C37 /* FPFEmoticonGroup.h */,
+				C48AA64A1DC9DB8D00BC4C37 /* FPFEmoticonGroup.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C48AA64B1DC9DB8D00BC4C37 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C48AA64C1DC9DB8D00BC4C37 /* defaultEmoticon.cfg */,
+				C48AA64D1DC9DB8D00BC4C37 /* T10V_eByb_1RCvBVdK.png */,
+				C48AA64E1DC9DB8D00BC4C37 /* T16LWKBvb_1RCvBVdK.png */,
+				C48AA64F1DC9DB8D00BC4C37 /* T1B_VeBXV_1RCvBVdK.png */,
+				C48AA6501DC9DB8D00BC4C37 /* T1ECJ7ByA_1RCvBVdK.png */,
+				C48AA6511DC9DB8D00BC4C37 /* T1fkY7B7h_1RCvBVdK.png */,
+				C48AA6521DC9DB8D00BC4C37 /* T1gKdPByA_1RCvBVdK.png */,
+				C48AA6531DC9DB8D00BC4C37 /* T1OJA7ByV_1RCvBVdK.png */,
+				C48AA6541DC9DB8D00BC4C37 /* T1UoY7BXK_1RCvBVdK.png */,
+				C48AA6551DC9DB8D00BC4C37 /* T1vRELByL_1RCvBVdK.png */,
+				C48AA6561DC9DB8D00BC4C37 /* T1WqbeByW_1RCvBVdK.png */,
+				C48AA6571DC9DB8D00BC4C37 /* 头像.png */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C48AA6581DC9DB8D00BC4C37 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C48AA6591DC9DB8D00BC4C37 /* FPFCustomEmojiItem.h */,
+				C48AA65A1DC9DB8D00BC4C37 /* FPFCustomEmojiItem.m */,
+				C48AA65B1DC9DB8D00BC4C37 /* FPFEditorEmojiView.h */,
+				C48AA65C1DC9DB8D00BC4C37 /* FPFEditorEmojiView.m */,
+				C48AA65D1DC9DB8D00BC4C37 /* FPFEmojiBarItem.h */,
+				C48AA65E1DC9DB8D00BC4C37 /* FPFEmojiBarItem.m */,
+				C48AA65F1DC9DB8D00BC4C37 /* FPFEmojiItemLayout.h */,
+				C48AA6601DC9DB8D00BC4C37 /* FPFEmojiItemLayout.m */,
+				C48AA6611DC9DB8D00BC4C37 /* FPFSystemEmojiItem.h */,
+				C48AA6621DC9DB8D00BC4C37 /* FPFSystemEmojiItem.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +328,7 @@
 				TargetAttributes = {
 					C48AA6091DC9DA8100BC4C37 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = RMX3P984D8;
 						ProvisioningStyle = Automatic;
 					};
 					C48AA6221DC9DA8100BC4C37 = {
@@ -246,9 +368,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C48AA6691DC9DB8D00BC4C37 /* T16LWKBvb_1RCvBVdK.png in Resources */,
+				C48AA6671DC9DB8D00BC4C37 /* defaultEmoticon.cfg in Resources */,
+				C48AA6681DC9DB8D00BC4C37 /* T10V_eByb_1RCvBVdK.png in Resources */,
+				C48AA6711DC9DB8D00BC4C37 /* T1WqbeByW_1RCvBVdK.png in Resources */,
 				C48AA61D1DC9DA8100BC4C37 /* LaunchScreen.storyboard in Resources */,
+				C48AA6721DC9DB8D00BC4C37 /* 头像.png in Resources */,
+				C48AA66E1DC9DB8D00BC4C37 /* T1OJA7ByV_1RCvBVdK.png in Resources */,
 				C48AA61A1DC9DA8100BC4C37 /* Assets.xcassets in Resources */,
+				C48AA66B1DC9DB8D00BC4C37 /* T1ECJ7ByA_1RCvBVdK.png in Resources */,
+				C48AA66C1DC9DB8D00BC4C37 /* T1fkY7B7h_1RCvBVdK.png in Resources */,
+				C48AA6701DC9DB8D00BC4C37 /* T1vRELByL_1RCvBVdK.png in Resources */,
 				C48AA6181DC9DA8100BC4C37 /* Main.storyboard in Resources */,
+				C48AA66F1DC9DB8D00BC4C37 /* T1UoY7BXK_1RCvBVdK.png in Resources */,
+				C48AA66D1DC9DB8D00BC4C37 /* T1gKdPByA_1RCvBVdK.png in Resources */,
+				C48AA66A1DC9DB8D00BC4C37 /* T1B_VeBXV_1RCvBVdK.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +408,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C48AA6151DC9DA8100BC4C37 /* ViewController.m in Sources */,
+				C48AA6731DC9DB8D00BC4C37 /* FPFCustomEmojiItem.m in Sources */,
 				C48AA6121DC9DA8100BC4C37 /* AppDelegate.m in Sources */,
 				C48AA60F1DC9DA8100BC4C37 /* main.m in Sources */,
+				C48AA6741DC9DB8D00BC4C37 /* FPFEditorEmojiView.m in Sources */,
+				C48AA6631DC9DB8D00BC4C37 /* FPFEmojiManager.m in Sources */,
+				C48AA6751DC9DB8D00BC4C37 /* FPFEmojiBarItem.m in Sources */,
+				C48AA6771DC9DB8D00BC4C37 /* FPFSystemEmojiItem.m in Sources */,
+				C48AA6661DC9DB8D00BC4C37 /* FPFEmoticonGroup.m in Sources */,
+				C48AA6761DC9DB8D00BC4C37 /* FPFEmojiItemLayout.m in Sources */,
+				C48AA6651DC9DB8D00BC4C37 /* FPFEmoticon.m in Sources */,
+				C48AA6641DC9DB8D00BC4C37 /* FPFEmoticonDownloader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +565,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RMX3P984D8;
 				INFOPLIST_FILE = CustomEmojiKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NickyBUG.CustomEmojiKeyboard;
@@ -433,6 +577,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RMX3P984D8;
 				INFOPLIST_FILE = CustomEmojiKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NickyBUG.CustomEmojiKeyboard;
