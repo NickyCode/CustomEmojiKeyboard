@@ -18,13 +18,12 @@
 @property (nonatomic, copy) NSString *md5;
 @property (nonatomic, strong) NSURL *iconURL;
 @property (nonatomic, strong) NSURL *packageURL;
-@property (nonatomic, assign) CGFloat price;
+@property (nonatomic, assign) double price;
 @property (nonatomic, assign) NSInteger type;
 @property (nonatomic, assign) NSInteger sort;
 @property (nonatomic, assign) NSInteger state;
 @property (nonatomic, assign) NSInteger createTime;
 @property (nonatomic, strong) NSArray<FPFEmoticon *> *emoticons;
 
-+ (void)replacePropertyKey;
 
 @end

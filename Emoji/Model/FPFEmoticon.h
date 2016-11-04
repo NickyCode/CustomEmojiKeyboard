@@ -19,6 +19,4 @@
 @property (nonatomic, strong) NSURL *url;
 @property (nonatomic, strong) NSURL *path;
 
-+ (void)replacePropertyKey;
-
 @end

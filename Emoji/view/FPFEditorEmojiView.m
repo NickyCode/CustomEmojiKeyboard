@@ -13,8 +13,6 @@
 #import "FPFSystemEmojiItem.h"
 #import "FPFCustomEmojiItem.h"
 #import "UIButton+WebCache.h"
-#import "FPFSkinThemeManger.h"
-#import "FPFSkinView.h"
 
 static const CGSize kBarItemSize = (CGSize){60, 44};
 
@@ -187,8 +185,6 @@ static NSString * const kCustomEmojiItemIdentifier = @"kCustomEmojiItemIdentifie
         }
         
         if (indexPath.row == _currentSourceSection) {
-            NSString *color = [[[FPFSkinThemeManger shareInstace] plistDic] objectForKey:message_post_tool_view_bg_color];
-            cell.backgroundColor = [UIColor colorWithHexString:color];
         } else {
             cell.backgroundColor = [UIColor clearColor];
         }
@@ -291,8 +287,6 @@ static NSString * const kCustomEmojiItemIdentifier = @"kCustomEmojiItemIdentifie
         barview.bounces = NO;
         barview.allowsMultipleSelection = NO;
         
-        NSString *color = [[[FPFSkinThemeManger shareInstace] plistDic] objectForKey:message_post_emoji_bar_bg_color];
-        barview.backgroundColor = [UIColor colorWithHexString:color];
         barview.showsVerticalScrollIndicator = NO;
         barview.showsHorizontalScrollIndicator = NO;
         barview.delegate = self;
@@ -308,8 +302,6 @@ static NSString * const kCustomEmojiItemIdentifier = @"kCustomEmojiItemIdentifie
         UIButton *backBtn = [[UIButton alloc] initWithFrame:(CGRect){{ScreenWidth-kBarItemSize.width,self.height-kBarItemSize.height}, kBarItemSize}];
         _clearBtn = backBtn;
         
-        NSString *color = [[[FPFSkinThemeManger shareInstace] plistDic] objectForKey:message_post_emoji_bar_bg_color];
-        backBtn.backgroundColor = [UIColor colorWithHexString:color];
         [backBtn setImage:[UIImage imageNamed:@"message_post_face_btn_delete_nor"] forState:UIControlStateNormal];
         [backBtn setImage:[UIImage imageNamed:@"message_post_face_btn_delete_hl"] forState:UIControlStateHighlighted];
         [backBtn addTarget:self action:@selector(clearEmoticon:) forControlEvents:UIControlEventTouchUpInside];

@@ -7,11 +7,7 @@
 //
 
 #import "FPFEmojiManager.h"
-#import "MJExtension.h"
-#import "FPFNetworkEngine.h"
-#import "FPFLoginDataCenterModel.h"
-#import "FPFURLMacros.h"
-
+//#import "MJExtension.h"
 
 #define EMOJI_CODE_TO_SYMBOL(x) ((((0x808080F0 | (x & 0x3F000) >> 4) | (x & 0xFC0) << 10) | (x & 0x1C0000) << 18) | (x & 0x3F) << 24);
 
@@ -78,8 +74,10 @@
             
             NSDictionary *emoticonInfo = rebitConfig[key];
             
-            [FPFEmoticon replacePropertyKey];
-            FPFEmoticon *emoticon = [FPFEmoticon mj_objectWithKeyValues:emoticonInfo];
+//            [FPFEmoticon replacePropertyKey];
+//            FPFEmoticon *emoticon = [FPFEmoticon mj_objectWithKeyValues:emoticonInfo];
+            FPFEmoticon *emoticon = [[FPFEmoticon alloc] init];
+
             NSURL *path = [[NSBundle mainBundle] URLForResource:key withExtension:@"png"];
             emoticon.path = path;
             [group addObject:emoticon];
@@ -99,42 +97,7 @@
 
 - (void)getUserEmoticonListWithComplection:(dispatch_block_t)complection
 {
-    NSString *sign = [[FPFLoginDataCenterModel sharedInstance] sign];
-    
-    if (!sign) {
-        return;
-    }
-    
-    NSDictionary *params = @{@"sign" : sign};
-    
-    __weak typeof(self) wself = self;
-    
-    FPFResponseFail fail = ^(NSError * _Nonnull error) {
-        
 
-    };
-    
-    FPFResponseSuccess success = ^(id  _Nullable response) {
-        NSDictionary *data = response[@"data"];
-        if (data && [data isKindOfClass:[NSArray class]]) {
-            
-            NSMutableArray *sources = [NSMutableArray arrayWithCapacity:data.count];
-            [FPFEmoticonGroup replacePropertyKey];
-            
-            [(NSArray *)data enumerateObjectsUsingBlock:^(NSDictionary * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-               
-                FPFEmoticonGroup *group = [FPFEmoticonGroup mj_objectWithKeyValues:obj];
-                [sources addObject:group];
-            }];
-        }
-    };
-    
-    FPFNetworkEngine *engine = [FPFNetworkEngine shareInstance];
-    
-    [engine getWithUrl:Emoticon_GetList
-                params:params
-               success:success
-                  fail:fail];
 }
 
 @end
